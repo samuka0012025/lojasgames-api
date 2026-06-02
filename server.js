@@ -1,5 +1,6 @@
 const express = require('express')
 const router = require('./routes/jogos')
+const db = require('./database/db')
 const app = express()
 const port = 3000
 
